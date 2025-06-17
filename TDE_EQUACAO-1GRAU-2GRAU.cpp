@@ -94,7 +94,8 @@ if (p2) {
         printf("Equacao de 1o grau detectada: a=%.2f, b=%.2f\n", coeficienteA, coeficienteB);
         resolverPrimeiroGrau(coeficienteA,coeficienteB);
     }
-
+    
+	system("pause");
     return 0;
 }
 
